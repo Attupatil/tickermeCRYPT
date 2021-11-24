@@ -328,7 +328,7 @@ else:
 
     with st.sidebar:
         image = Image.open('logo.jpg')
-        st.image(image, caption='By TickerMe financial solutions (TE COMPS)')
+        st.image(image, caption='By TickerMe financial solutions')
         st.markdown('<h1 style="float: left;">WITH LOVE :)</h1>',unsafe_allow_html=True,)
         selected_analysis = st.radio("Select Analysis", list(analysis_dict.keys()))
         st.write("---")
