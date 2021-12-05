@@ -1,5 +1,6 @@
-# TickerMe : https://tickerme.herokuapp.com/ https://tickerme.azurewebsites.net/
+# [TickerMe (azure):](https://tickerme.azurewebsites.net/)
 
+# [TickerMe (heroku):](https://tickerme.herokuapp.com/)
 ## Problem Statement/Opportunity
 #### India has a great future regarding crypto market this project is made to get the most benefit once India accepts crypto currency by showing crypto screener as well as other financial screener including foreign stocks (NASDAQ SNP500 DOW) and Indian stocks.
 
