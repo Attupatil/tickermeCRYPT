@@ -12,3 +12,10 @@ clone this repo
     pip install -r requriements.txt
     streamlit run TickerMe.py
 
+# Screenshots
+![Image](https://github.com/Attupatil/tickermeCRYPT/blob/main/ScreenShots/1.jpg "https://TickerMe.herokuapp.com")
+![Image](https://github.com/Attupatil/tickermeCRYPT/blob/main/ScreenShots/2jpg.jpg "https://TickerMe.herokuapp.com")
+![Image](https://github.com/Attupatil/tickermeCRYPT/blob/main/ScreenShots/3.jpg "https://TickerMe.herokuapp.com")
+![Image](https://github.com/Attupatil/tickermeCRYPT/blob/main/ScreenShots/4.jpg "https://TickerMe.herokuapp.com")
+![Image](https://github.com/Attupatil/tickermeCRYPT/blob/main/ScreenShots/5.jpg "https://TickerMe.herokuapp.com")
+![Image](https://github.com/Attupatil/tickermeCRYPT/blob/main/ScreenShots/6.jpg "https://TickerMe.herokuapp.com")
