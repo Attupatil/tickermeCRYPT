@@ -37,8 +37,7 @@ else:
         string_logo = '<img src=%s>' % tickerData.info['logo_url']
         st.markdown(string_logo, unsafe_allow_html=True)
         string_name = tickerData.info['longName']
-        st.header('**%s**' % string_name)
-        
+        st.header('**%s**' % string_name)       
         
         fig = ago.Figure()
 
@@ -84,7 +83,7 @@ else:
 
         fig.add_trace(ago.Candlestick(x=cdata.index,open=cdata['Open'],high=cdata['High'],low=cdata['Low'],close=cdata['Close'], name = 'market data'))
 
-        fig.update_layout(title=' live share price evolution',yaxis_title='Stock Price (INR per Shares)')
+        fig.update_layout(title=' live share price evolution',yaxis_title='Stock Price (USD per Shares)')
 
         fig.update_xaxes(
             rangeslider_visible=True,
@@ -281,9 +280,11 @@ else:
 
     def crypto_display():
 
+        Cry = ['BTC-USD','ETH-USD','XMR-USD','USDT-USD','BNB-USD','USDC-USD','XRP-USD','SOL-USD','ADA-USD','LUNA1-USD','HEX-USD','AVAX-USD','DOGE-USD','UST-USD','BUSD-USD','SHIB-USD','WBTC-USD','NEAR-USD','MATIC-USE','CRO-USD','DAI-USD','LTC-USD','ATOM-USD','LINK-USD','UNI1-USD']
         with st.sidebar:
             st.write("Crypto Inputs")
-            symbol = st.selectbox("Select Symbol",stock_info.get_top_crypto())
+            # symbol = st.selectbox("Select Symbol",stock_info.get_top_crypto())
+            symbol = st.selectbox("Select Symbol",Cry)
             a = st.date_input("From date", datetime.date.today() - datetime.timedelta(30)) 
             b = st.date_input("To Date", datetime.date.today())
 
